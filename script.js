@@ -7,9 +7,9 @@ function login(){
     const USUARIO = document.getElementById('inpusuario');
     const CONTRAS =document.getElementById('inpcontrasena');
 
-    if (USUARIO.value !== "admin" && CONTRAS.value !=="admin"){
-        LOGERROR.style.display='block';
+    if ((USUARIO.value === "admin") && (CONTRAS.value ==="admin")){
+        console.log("accediste");LOGERROR.style.display='none';
+    window.open('inicio.html','_blank')
         return }
-        else{console.log("accediste");LOGERROR.style.display='none';
-    window.open('inicio.html','_blank')}
+        else {;LOGERROR.style.display='block';}
 }
