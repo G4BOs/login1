@@ -9,7 +9,7 @@ function login(){
 
     if ((USUARIO.value === "admin") && (CONTRAS.value ==="admin")){
         console.log("accediste");LOGERROR.style.display='none';
-    window.open('inicio.html','_blank')
+    window.location.href='inicio.html';
         return }
         else {;LOGERROR.style.display='block';}
 }
