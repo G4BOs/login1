@@ -1,4 +1,4 @@
-body{text-align: center;font-family: Arial, Helvetica, sans-serif;background-color: #11011b;}
+body{text-align: center;font-family: Arial, Helvetica, sans-serif;background-color: #11011b; color: #492877;}
 
 #contenedor{display: flex;flex-direction: column;position:relative;height: 100%;width: 100%;padding-top: 100px;}
 
@@ -9,3 +9,16 @@ body{text-align: center;font-family: Arial, Helvetica, sans-serif;background-col
 #inpusuario{width: 140px;margin-left: auto;margin-right: auto;margin-bottom: 5px;color: #11011b;text-align: center;height: 20px;border-radius: 5px;border: none;}
 #inpcontrasena{width: 140px;margin-left: auto;margin-right: auto;margin-bottom: 10px;color: #11011b;text-align: center;height: 20px;border-radius: 5px;border: none;}
 #lboton{width: 80px;margin-left: auto;margin-right: auto;color: #11011b;border: none;height: 20px;border-radius: 5px;}
+button:active{scale: 0.95;}
+
+/*Error login*/
+#errorlogin{color: red;font-size: 12px;animation: aparecer 0.1s linear;display: none;}
+
+/*Animaciones*/
+@keyframes aparecer {
+    0%{scale: 0;}
+    25%{scale: 0.25;}
+    50%{scale: 0.5;}
+    100%{scale: 1;}
+    
+}
