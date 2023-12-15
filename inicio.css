@@ -1,0 +1,17 @@
+body{font-family: Arial, Helvetica, sans-serif;text-align: center;}
+
+#contenedor{background-color: #18022d;width: 100%;height: 100%;margin: 0;inset: 0;position: absolute;overflow: hidden;}
+
+
+#cabecera{height: 10%;width: 95%;background-color: #684396;position: absolute;margin: 0;inset: 0;margin-left: auto;text-align: center; display: flex;min-width: 60px;z-index: 2;}
+
+
+#navegador{height: 100%;width: 5%;background-color: #684396;position: absolute;min-width: 60px;z-index: 3;}
+
+.icono{height: 50px;width: 50px;margin-bottom: 25px;margin-top: 10px;position: relative;}
+
+#logo{width: 55px;height: 55px;margin-left: 60px;margin-top: 4px;}
+
+h1{margin-left: auto;margin-right: auto; font-weight: bold;font-size: 40px;margin-bottom: auto;margin-top: auto;color: #18022d;}
+
+#ventanainicio{height: 92%;width: 100%;background-color: #18022d;position: absolute;margin-top: 4%;z-index: 1;}
